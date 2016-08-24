@@ -1,4 +1,4 @@
-//make iif
+//make iife
 (function(){
   //set up module for angular
   angular
@@ -19,7 +19,7 @@
         //pass the controller as for when the file is minify
         controllerAs: 'directiveController'
       };
-      //return the directive that we made 
+      //return the directive that we made
       return directive;
 }
 directiveController.$inject = [];
